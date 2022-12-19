@@ -250,6 +250,7 @@ lda_plot <- cbind(train, predict(model)$x)
 ggplot(lda_plot, aes(LD1, LD2)) +
  geom_point(aes(color = Species))
 
+```
 On voit bien comment les axes discriminants séparent les trois espèces différentes dans notre ensemble.
 le 1er axe discriminant est le meilleur axe pour faire la discrimination.
 
