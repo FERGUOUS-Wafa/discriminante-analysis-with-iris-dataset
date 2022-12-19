@@ -181,7 +181,8 @@ On utilise la fonction apply() pour vérifier que chaque variable prédictive a 
 ```R
 apply(iris[1:4], 2, mean)
 apply(iris[1:4], 2, sd)
-			
+```
+
 Valeurs NA
 
 Il n'y a pas de valeur NA.
